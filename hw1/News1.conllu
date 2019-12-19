@@ -1,0 +1,241 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = НАТО ответит на небывалую активность российских подлодок
+1	НАТО	Нато	ADV	_	Degree=Pos	2	advmod	_	_
+2	ответит	ответить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	небывалую	небывалый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+6	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	подлодок	подлодка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 2
+# text = В НАТО зафиксировали небывалую активность российских подлодок с момента окончания холодной войны.
+1	В	в	ADP	_	_	2	case	_	_
+2	НАТО	НАТО	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+3	зафиксировали	фиксировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	небывалую	небывалый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	подлодок	подлодка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+10	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	холодной	холодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3
+# text = Об этом сообщает RedaktionsNetzwerk Deutschland.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	RedaktionsNetzwerk	RedaktionsNetzwerk	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Deutschland	Deutschland	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 4
+# text = Представитель альянса Оана Лунгеску в разговоре с агентством подчеркнула, что Россия постоянно усиливает операции под водой, в связи с чем НАТО ответит увеличением своих патрулей.
+1	Представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	альянса	альянс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Оана	Оан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Лунгеску	Лунгеск	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	appos	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	разговоре	разговор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	агентством	агентство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+9	подчеркнула	подчеркнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	что	что	SCONJ	_	_	14	mark	_	_
+12	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	постоянно	постоянно	ADV	_	Degree=Pos	14	advmod	_	_
+14	усиливает	усиливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+15	операции	операция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+16	под	под	ADP	_	_	17	case	_	_
+17	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	24	punct	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	с	с	ADP	_	_	19	fixed	_	_
+22	чем	что	PRON	_	Case=Ins	24	obl	_	_
+23	НАТО	НАТО	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	_
+24	ответит	ответить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+25	увеличением	увеличение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	_
+26	своих	свой	DET	_	Case=Gen|Number=Plur	27	det	_	_
+27	патрулей	патруля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 5
+# text = В частности, активность замечена около Гренландии, Исландии и Великобритании.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	замечена	заметить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	около	около	ADP	_	_	7	case	_	_
+7	Гренландии	Гренландия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Исландии	Исландия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 6
+# text = Кроме того, в Североатлантическом альянсе планируют выделять больше средств на противолодочную оборону.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	Североатлантическом	Североатлантический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	альянсе	альянс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выделять	выделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	больше	больше	ADV	_	Degree=Cmp	10	nummod:gov	_	_
+10	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	противолодочную	противолодочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	оборону	оборона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 7
+# text = В одном из негативных сценариев, который рассматривают в НАТО, описана вероятность, что российские подводные лодки могут повредить подводные кабели между Соединенными Штатами и Европой.
+1	В	в	ADP	_	_	2	case	_	_
+2	одном	один	NUM	_	Case=Loc|Gender=Masc	12	nummod	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	негативных	негативный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	сценариев	сценарий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	который	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	НАТО	НАТО	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	описана	описать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	что	что	SCONJ	_	_	19	mark	_	_
+16	российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+17	подводные	подводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	лодки	лодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+19	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	_
+20	повредить	повредить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	подводные	подводный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	кабели	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+23	между	между	ADP	_	_	25	case	_	_
+24	Соединенными	соединить	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	Штатами	Штат	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	Европой	Европа	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 8
+# text = Подчеркивается, что от этого зависит работа интернет-коммуникаций.
+1	Подчеркивается	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	что	что	SCONJ	_	_	6	mark	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+6	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+7	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	интернет-	интернет-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	коммуникаций	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 9
+# text = Также подлодки России в Северной Атлантике рассматриваются в качестве угрозы работы гражданских торговых путей.
+1	Также	также	ADV	_	Degree=Pos	7	advmod	_	_
+2	подлодки	подлодка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	Северной	Северный	PROPN	_	_	6	amod	_	_
+6	Атлантике	Атлантика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+7	рассматриваются	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+11	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	торговых	торговый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 10
+# text = В августе сообщалось, что Великобритания опасается российских подводных лодок, которые из-за своей тихости угрожают ее безопасности.
+1	В	в	ADP	_	_	2	case	_	_
+2	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	сообщалось	сообщать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	что	что	SCONJ	_	_	7	mark	_	_
+6	Великобритания	Великобритания	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	опасается	опасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
+8	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	подводных	подводный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	лодок	лодка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	iobj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+13	из-за	из-за	ADP	_	_	15	case	_	_
+14	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	det	_	_
+15	тихости	тихость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+16	угрожают	угрожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+17	ее	она	DET	_	_	18	det	_	_
+18	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 11
+# text = Отмечалось, что сейчас у России есть сверхтихие подводные лодки проекта 636 «Варшавянка» (класс Kilo по классификации НАТО), которые могут быть незаметны для британцев.
+1	Отмечалось	отмечать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	7	punct	_	_
+3	что	что	SCONJ	_	_	7	mark	_	_
+4	сейчас	сейчас	ADV	_	Degree=Pos	7	advmod	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+8	сверхтихие	сверхтихой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+9	подводные	подводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	лодки	лодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+11	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	636	636	NUM	_	_	13	nummod	_	_
+13	«Варшавянка»	«Варшавянка»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+16	Kilo	Kilo	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	классификации	классификация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+19	НАТО	НАТО	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+24	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	cop	_	_
+25	незаметны	незаметный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	23	obl	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	британцев	британец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 12
+# text = Военные опасаются, что российские подлодки могут незаметно отслеживать перемещения флота или подключаться к подводным интернет-кабелям.
+1	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	опасаются	опасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	что	что	SCONJ	_	_	7	mark	_	_
+5	российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	подлодки	подлодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+8	незаметно	незаметно	ADV	_	Degree=Pos	9	advmod	_	_
+9	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+10	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+11	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	подключаться	подключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	conj	_	_
+14	к	к	ADP	_	_	18	case	_	_
+15	подводным	подводный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+16	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	кабелям	кабель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+

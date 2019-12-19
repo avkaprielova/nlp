@@ -1,0 +1,177 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 17.12.2019, 12:46 ЛУКОЙЛ не исключает цену нефти $90 за баррель в 2025–2035 годах 1 В период 2025–2035 годов при повышенном спросе на нефть цена за баррель может увеличиться до $90, следует из долгосрочного прогноза ЛУКОЙЛа.
+1	17.12.2019	17.12.2019	NUM	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	12	12	NUM	_	_	1	conj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	46	46	NUM	_	_	6	nummod	_	SpacesAfter=\r\n
+6	ЛУКОЙЛ	лукойл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	исключает	исключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	$	$	SYM	_	_	9	nmod	_	SpaceAfter=No
+12	90	90	NUM	_	_	11	nummod	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+15	в	в	ADP	_	_	19	case	_	_
+16	2025	2025	NUM	_	_	19	nummod	_	SpaceAfter=No
+17	–	–	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	2035	2035	NUM	_	_	16	nummod	_	_
+19	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	SpacesAfter=\r\n\s\s
+20	1	1	NUM	_	_	19	nummod	_	SpacesAfter=\s\s\s\s\s\s\r\n
+21	В	в	ADP	_	_	22	case	_	_
+22	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obl	_	_
+23	2025	2025	NUM	_	_	26	nummod	_	SpaceAfter=No
+24	–	–	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	2035	2035	NUM	_	_	23	nummod	_	_
+26	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+27	при	при	ADP	_	_	29	case	_	_
+28	повышенном	повысить	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+29	спросе	спрос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	нефть	нефть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	_
+32	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+33	за	за	ADP	_	_	34	case	_	_
+34	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	_
+35	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
+36	увеличиться	увеличиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	35	xcomp	_	_
+37	до	до	ADP	_	_	38	case	_	_
+38	$	$	SYM	_	_	36	obl	_	SpaceAfter=No
+39	90	90	NUM	_	_	38	nummod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	conj	_	_
+42	из	из	ADP	_	_	44	case	_	_
+43	долгосрочного	долгосрочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	прогноза	прогноз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	obl	_	_
+45	ЛУКОЙЛа	ЛУКОЙЛ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2
+# text = При этом в компании допускают, что цена за баррель за тот же период может опуститься до $50 в случае выполнения странами Парижского соглашения по удержанию роста глобального потепления.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	допускают	допускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	15	punct	_	_
+7	что	что	SCONJ	_	_	15	mark	_	_
+8	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+9	за	за	ADP	_	_	10	case	_	_
+10	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	за	за	ADP	_	_	14	case	_	_
+12	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	14	det	_	_
+13	же	же	PART	_	_	12	advmod	_	_
+14	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+16	опуститься	опуститься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	до	до	ADP	_	_	18	case	_	_
+18	$	$	SYM	_	_	16	obl	_	SpaceAfter=No
+19	50	50	NUM	_	_	18	nummod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+22	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	странами	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	nmod	_	_
+24	Парижского	парижский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	соглашения	соглашение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	удержанию	удержание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
+28	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	глобального	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	потепления	потепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 3
+# text = По мнению авторов прогноза, увеличение цены за баррель нефти до $90 возможно при нескольких факторов, которые смогут обеспечить повышенный спрос на сырье.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	прогноза	прогноз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+7	цены	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	$	$	SYM	_	_	14	obl	_	SpaceAfter=No
+13	90	90	NUM	_	_	12	nummod	_	_
+14	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+15	при	при	ADP	_	_	17	case	_	_
+16	нескольких	несколько	NUM	_	Case=Gen	17	nummod	_	_
+17	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	обеспечить	обеспечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	повышенный	повысить	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	спрос	спрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	сырье	сырье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4
+# text = А именно: увеличение удельного потребления энергии в развивающихся странах, отказ от ограничений на выбросы парниковых газов и доминирование ископаемых видов топлива.
+1	А	а	CCONJ	_	_	12	cc	_	_
+2	именно	именно	PART	_	_	1	fixed	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+5	удельного	удельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	потребления	потребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	развивающихся	развиваться	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	10	amod	_	_
+10	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	отказ	отказ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	ограничений	ограничение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	_
+17	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	доминирование	доминирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+21	ископаемых	ископать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 5
+# text = При этом в прогнозе отмечается, что в ближайшие 30–50 лет при развитии любого сценария развития мировой энергетики ископаемые топлива продолжат играть ведущую роль в мировом энергетическом балансе.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	прогнозе	прогноз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	отмечается	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	23	punct	_	_
+7	что	что	SCONJ	_	_	23	mark	_	_
+8	в	в	ADP	_	_	13	case	_	_
+9	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	30	30	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	50	50	NUM	_	_	10	nummod	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+16	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	det	_	_
+17	сценария	сценарий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	энергетики	энергетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	ископаемые	ископаемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+22	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	продолжат	продолжить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+24	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	ведущую	ведущий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+27	в	в	ADP	_	_	30	case	_	_
+28	мировом	мировой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+29	энергетическом	энергетический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	балансе	баланс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+

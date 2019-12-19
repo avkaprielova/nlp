@@ -1,0 +1,236 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = «Билайн» предупредил о повышении цен на ряде тарифов Оператор мобильной связи «ВымпелКом» (бренд «Билайн») проинформировал абонентов об изменении архивных тарифов с 16 января 2020 года.
+1	«Билайн»	«Билайн»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	предупредил	предупредить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	повышении	повышение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+5	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	ряде	ряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	тарифов	тариф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpacesAfter=\r\n
+9	Оператор	оператор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+10	мобильной	мобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	«ВымпелКом»	«ВымпелКом»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	бренд	бренд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	_
+15	«Билайн»	«Билайн»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	_
+17	проинформировал	информировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	_
+18	абонентов	абонент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	об	о	ADP	_	_	20	case	_	_
+20	изменении	изменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+21	архивных	архивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	тарифов	тариф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	16	16	NUM	_	_	17	nummod	_	_
+25	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	flat	_	_
+26	2020	2020	NUM	_	_	27	nummod	_	_
+27	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2
+# text = Соответствующее объявление опубликовано на сайте компании.
+1	Соответствующее	соответствующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	объявление	объявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	опубликовано	опубликовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3
+# text = О каких тарифных планах идет речь и как изменятся условия обслуживания абонентов, в нем не поясняется.
+1	О	о	ADP	_	_	4	case	_	_
+2	каких	какой	DET	_	Case=Loc|Number=Plur	4	det	_	_
+3	тарифных	тарифный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	планах	план	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+5	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+9	изменятся	измениться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	5	conj	_	_
+10	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+11	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	абонентов	абонент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	17	obl	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	поясняется	пояснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4
+# text = Но, например, клиенты тарифа «Все за 1200» получили СМС с информацией о грядущем повышении ежедневной абонентской платы на 10,6% до 45 руб., убедился корреспондент РБК.
+1	Но	но	CCONJ	_	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	клиенты	клиент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+6	тарифа	тариф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	«Все	«Вс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	1200»	1200»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	СМС	СМС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+14	о	о	ADP	_	_	16	case	_	_
+15	грядущем	грядущий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	повышении	повышение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+17	ежедневной	ежедневный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	абонентской	абонентский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	платы	плата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	10,6	10,6	NUM	_	_	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	_	_	16	nmod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	45	45	NUM	_	_	25	nummod	_	_
+25	руб	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	убедился	убедить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	conj	_	_
+29	корреспондент	корреспондент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+30	РБК	РБК	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 5
+# text = То есть ежемесячная плата по этому тарифу теперь будет составлять 1350 руб.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	mark	_	_
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
+3	ежемесячная	ежемесячный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	плата	плата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing	7	det	_	_
+7	тарифу	тариф	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+8	теперь	теперь	ADV	_	Degree=Pos	10	advmod	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	составлять	составлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+11	1350	1350	NUM	_	_	12	nummod	_	_
+12	руб	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 6
+# text = Представитель пресс-службы «ВымпелКома» сообщил, что изменения коснутся устаревших тарифов.
+1	Представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	пресс-службы	пресс-служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	«ВымпелКома»	«ВымпелКома»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	что	что	SCONJ	_	_	8	mark	_	_
+7	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+8	коснутся	коснуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	ccomp	_	_
+9	устаревших	устареть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	amod	_	_
+10	тарифов	тариф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 7
+# text = Детали он не раскрыл, но назвал это вынужденной мерой в связи со множеством факторов, повлиявших на телеком-рынок, среди которых — затраты на «закон Яровой» и планируемые расходы на реализацию так называемого закона «о суверенном интернете».
+1	Детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	раскрыл	раскрыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	но	но	CCONJ	_	_	7	cc	_	_
+7	назвал	назвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	вынужденной	вынужденный	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	мерой	мера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	fixed	_	_
+13	со	с	ADP	_	_	14	case	_	_
+14	множеством	множество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+15	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	повлиявших	влиять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	телеком	телек	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	рынок	рынок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	среди	среди	ADP	_	_	24	case	_	_
+24	которых	который	PRON	_	Case=Gen	26	nmod	_	_
+25	—	—	PUNCT	_	_	24	punct	_	_
+26	затраты	затрата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	conj	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	«закон	«закон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	_
+29	Яровой»	Яровой»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+30	и	и	CCONJ	_	_	32	cc	_	_
+31	планируемые	планировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	расходы	расход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	conj	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	реализацию	реализация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	_
+35	так	так	ADV	_	Degree=Pos	36	advmod	_	_
+36	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	37	acl	_	_
+37	закона	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+38	«о	«о	ADV	_	Degree=Pos	39	obl	_	_
+39	суверенном	суверенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	интернете»	интернете»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 8
+# text = «Эти факторы прямо влияют на формирование стоимости услуг и не компенсируют затраты на интенсивное развитие инфраструктуры.
+1	«Эти	«этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	факторы	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	прямо	прямо	ADV	_	Degree=Pos	4	advmod	_	_
+4	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	формирование	формирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	стоимости	стоимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	услуг	услуга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	компенсируют	компенсировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	затраты	затрата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	интенсивное	интенсивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+16	инфраструктуры	инфраструктура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 9
+# text = А мы видим, что, несмотря на инфляционные процессы, потребление в телекоме растет сильнее и цены на единицы услуг связи ежегодно снижаются», — заключил представитель пресс-службы.
+1	А	а	CCONJ	_	_	3	cc	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	15	punct	_	_
+5	что	что	SCONJ	_	_	15	mark	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	несмотря	несмотря	ADV	_	Polarity=Neg	10	case	_	_
+8	на	на	ADP	_	_	7	fixed	_	_
+9	инфляционные	инфляционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	телекоме	телеком	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+16	сильнее	сильный	ADV	_	Degree=Cmp	15	advmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	цены	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	conj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	единицы	единица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
+21	услуг	услуга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	ежегодно	ежегодно	ADV	_	Degree=Pos	15	advmod	_	_
+24	снижаются»	снижаются»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	—	—	PUNCT	_	_	27	punct	_	_
+27	заключил	заключить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+28	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+29	пресс-службы	пресс-служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n\r\n
+
+# newpar
+# sent_id = 10
+# text = Подробнее на РБК: https://www.rbc.ru/rbcfreenews/5df774a29a794785671c2a4e?utm_source=yxnews&utm_medium=desktop&utm_referrer=https%3A%2F%2Fyandex.ru%2Fnews
+1	Подробнее	подробно	ADV	_	Degree=Cmp	0	root	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	РБК	РБК	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n
+5	https://www.rbc.ru/rbcfreenews/5df774a29a794785671c2a4e?utm_source=yxnews&utm_medium=desktop&utm_referrer=https%3A%2F%2Fyandex.ru%2Fnews	https://www.rbc.ru/rbcfreenews/5df774a29a794785671c2a4e?utm_source=yxnews&utm_medium=desktop&utm_referrer=https%3A%2F%2Fyandex.ru%2Fnews	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpacesAfter=\n
+
